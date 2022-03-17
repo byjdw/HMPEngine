@@ -1,0 +1,34 @@
+main: com.dm1lk.hmprivate.Main
+name: HMPrivate
+version: 1.1.0
+description: This plugin handles the way death works on the HMPrivate Server.
+api-version: 1.17
+load: STARTUP
+author: dm1lk
+depend: [LuckPerms, LibsDisguises]
+prefix: HMP
+commands:
+  revive:
+    usage: §c/revive <player>
+    permission: hmprivate.revive
+  fakerevive:
+    usage: §c/fakerevive <player>
+    permission: hmprivate.fakerevive
+  revivebook:
+    usage: §c/revivebook <player>
+    permission: hmprivate.revivebook
+  ghost:
+    usage: §c/ghost <player>
+    permission: hmprivate.ghost
+  fakeghost:
+    usage: §c/fakeghost <player>
+    permission: hmprivate.fakeghost
+permissions:
+  hmprivate.*:
+    description: Allows access to all HMPublic Admin Commands.
+    children:
+      - hmprivate.admin
+      - hmprivate.revive
+      - hmprivate.fakerevive
+      - hmprivate.ghost
+      - hmprivate.fakeghost
