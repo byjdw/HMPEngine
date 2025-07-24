@@ -1,4 +1,3 @@
-# HMP-Private
-The initial version of the HMP Plugin, this version has since been abandoned, please see [byjdw/HMPJava](https://www.github.com/byjdw/HMPJava
-) for a newer version.
+# HMPEngine
 
+This was the initial iteration of the HMP server plugin - it is now deprecated as a newer version has since been made: [byjdw/HMPJava](https://www.github.com/byjdw/HMPJava
